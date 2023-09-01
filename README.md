@@ -2,7 +2,7 @@
 
 ## Preface
 
-Thanks for applying to Web Development at Berkeley & for taking the time to work on this technical project. Projects are due **FILL IN THE DATE/TIME HERE**
+Thanks for applying to Web Development at Berkeley & for taking the time to work on this technical project. Projects are due September 4th, 2023 at 11:59 PM.
 
 This project is designed for **you** to gauge whether you want to apply to the **bootcamp** or **industry** branch. Completing all checkpoints for the branch you are applying to is highly preferred, but don't worry if you aren't able to finish everything! As an estimate, you shouldn't need to spend any longer than ~3-4 hours on this project -- we don't want this to be a huge burden on you.
 
@@ -19,7 +19,7 @@ Make sure you read this ENTIRE DOCUMENT, especially these instructions, carefull
 To submit your project, please place your submission into a GitHub repo that is set to private. You
 will be submitting your code on [Gradescope](https://www.gradescope.com/). If you do not have a
 Gradescope account, please create one and if you are unable to create one, please email us
-immediately. The Gradescope course code is **FILL IN A GRADESCOPE CODE HERE**. You will see two different assignments:
+immediately. The Gradescope course code is **EJRZ4G**. You will see two different assignments:
 `Frontend Project` and `Backend Project`. _Please only submit to Backend Technical Project._ You can ignore Frontend Technical Project.
 
 The technical project will be due by **FILL IN THE TIME HERE** at midnight. We will be unable to respond to clarification emails sent in after then, so if you have any questions about the project, please let us know before then.
