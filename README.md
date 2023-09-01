@@ -75,7 +75,7 @@ The response can look like anything. You should raise an error if a field is mis
 
 Return a list of all contestants and the husband they are paired with.
 
-**Industry Checkpoint**: Add additional functionality to this API route allowing you to include a query parameter `sortByName=true` that determines if you should return by sorted order of contestantName. (ex: GET /contestants?sortedByName=true)
+**Industry Checkpoint**: Add additional functionality to this API route allowing you to include a query parameter `sortedByName=true` that determines if you should return by sorted order of contestantName. (ex: GET /contestants?sortedByName=true)
 
 Example request:
 
