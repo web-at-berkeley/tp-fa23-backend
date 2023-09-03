@@ -10,7 +10,7 @@ This project is designed for **you** to gauge whether you want to apply to the *
 
 This section will be updated with clarifications as they come up!
 
-1. The section for `GET /husbandCall` was updated to `GET /husbandCall/<contestantName>`.
+1. The section for `GET /husbandCall` was updated to `GET /husbandCall/<contestantName>`. If the contestant name passed in hasn't been registered, that should raise an error
 2. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
 
 ## Submission Instructions
@@ -105,11 +105,11 @@ Example response:
 
 ## Perform Husband Call and Score it
 
-Of course, no husband calling is complete without, well, a husband call!
+Of course, no husband calling is complete without, well, a husband call! This route should perform the call for a specific contestant.
 
 We determine the score of a husband call based on the husband's location and the contestant's vocalRange. If the vocalRange is exactly equal to the location, the score is equal to the location. If the vocal range is greater, the score is the absolute difference between the location and the vocalRange. In both these cases, return the score.
 
-If the vocalRange is less, we should raise an error with a descriptive message.
+If the vocalRange is less, we should raise an error with a descriptive message. If the contestant name passed in hasn't been registered, that should raise an error too.
 
 Example request:
 
