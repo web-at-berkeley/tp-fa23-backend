@@ -10,6 +10,9 @@ This project is designed for **you** to gauge whether you want to apply to the *
 
 This section will be updated with clarifications as they come up!
 
+1. The section for `GET /husbandCall` was updated to `GET /husbandCall/<contestantName>`.
+2. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
+
 ## Submission Instructions
 
 Welcome to WDB's backend project for development branch applicants — Fall 2023 👋
@@ -111,7 +114,7 @@ If the vocalRange is less, we should raise an error with a descriptive message.
 Example request:
 
 ```
-GET /husbandCall
+GET /husbandCall/Alice
 ```
 
 Example response:
