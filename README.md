@@ -12,6 +12,7 @@ This section will be updated with clarifications as they come up!
 
 1. The section for `GET /husbandCall` was updated to `GET /husbandCall/<contestantName>`. If the contestant name passed in hasn't been registered, that should raise an error
 2. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
+3. the `bestShout` endpoint should only operate on contestants who have performed a shout. If you implemented it a different way, you can keep it that way an note that in your assumptions doc though — it won't negatively affect you!
 
 ## Submission Instructions
 
